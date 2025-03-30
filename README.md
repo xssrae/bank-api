@@ -1,6 +1,6 @@
 # Bank API - API RESTful
 
-Bank API é uma API RESTful desenvolvida em **Java 17** com **Spring Boot 3**, projetada para fornecer serviços bancários de maneira eficiente e segura.
+Bank API é uma API RESTful desenvolvida em **Java 17** com **Spring Boot 3**, projetada que simula o gerenciamento de contas bancárias.
 
 ## Tecnologias Principais
 
@@ -12,8 +12,6 @@ As tecnologias utilizadas garantem escalabilidade, segurança e facilidade de de
 - **OpenAPI (Swagger)**: Fornece documentação interativa e intuitiva da API, facilitando sua exploração e uso.
 
 ## Instalação e Execução
-
-Siga os passos abaixo para configurar e executar o projeto localmente:
 
 1. **Clone o repositório:**
    ```sh
@@ -43,12 +41,10 @@ Siga os passos abaixo para configurar e executar o projeto localmente:
 
 ## Estrutura da API
 
-A API segue um padrão RESTful bem definido, permitindo operações como:
-
-- **Usuários**: Criação, leitura, atualização e remoção de contas de usuários.
-- **Contas bancárias**: Gerenciamento de saldo, limites e transações.
-- **Cartões**: Consulta de cartões vinculados a uma conta.
-- **Notícias e funcionalidades**: Listagem de novidades e serviços bancários disponíveis.
+- **Users**: Criação, leitura, atualização e remoção de contas de usuários.
+- **Account**: Gerenciamento de saldo, limites e transações.
+- **Card**: Consulta de cartões vinculados a uma conta.
+- **News e Features**: Listagem de novidades e serviços bancários disponíveis.
 
 ## Diagrama de Classes
 
